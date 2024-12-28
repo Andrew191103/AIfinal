@@ -89,7 +89,7 @@
 
 ## Contributors
 
-Developed by **Andrew Sebastian Sibue** and **Nicholaus Santo Agnus Dei**.  
+Developed by **Andrew Sebastian Sibuea** and **Nicholaus Santo Agnus Dei**.  
 Feel free to report issues or suggest enhancements!
 
 ---
