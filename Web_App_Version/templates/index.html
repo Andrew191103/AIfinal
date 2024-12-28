@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOT</title>
+    <style>
+        /* Dark Theme Styling */
+        body {
+            background-color: #2c2c2c;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 36px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: -10px;
+            font-size: 16px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        label {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        select, textarea, input[type="file"] {
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #444;
+            color: #fff;
+            border: 1px solid #666;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            margin: 10px 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        h2, h3 {
+            text-align: left;
+            margin-left: 10%;
+        }
+
+        ul {
+            margin-left: 12%;
+            font-size: 14px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .result-container {
+            background-color: #3b3b3b;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            margin: 20px auto;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SPOT</h1>
+    <p>Spot the Risks, Spot the Permissions, Spot the Truth</p>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label for="model_name">Select Model:</label>
+        <select name="model_name">
+            <option value="bert (fast, less accuracy)">BERT (Fast, Low Accuracy)</option>
+            <option value="bart (moderate speed, moderate accuracy)">BART (Moderate Speed, Moderate Accuracy)</option>
+            <option value="gpt (slow speed, best accuracy)">GPT (Slow Speed, Best Accuracy)</option>
+        </select>
+
+        <label for="manual_input">Paste Privacy Policy Text:</label>
+        <textarea name="manual_input" rows="8" placeholder="Enter or paste privacy policy text here..."></textarea>
+
+        <label for="file">Upload a File (PDF or Markdown):</label>
+        <input type="file" name="file">
+
+        <div class="button-container">
+            <button type="submit">Analyze</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+
+    {% if result %}
+    <div class="result-container">
+        <h2>Analysis Results ({{ model_name.upper() }})</h2>
+        {% if "error" in result %}
+            <p style="color: red;">Error: {{ result.error }}</p>
+        {% else %}
+            <h3>Detected Risks:</h3>
+            <ul>
+                {% for risk in result.risks %}
+                    <li>{{ risk }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Permissions/Allowances and Reasons:</h3>
+            <ul>
+                {% for permission in result.permissions %}
+                    <li>{{ permission }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Summary:</h3>
+            <ul>
+                {% for summary_point in result.summary %}
+                    <li>{{ summary_point }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+    {% endif %}
+</body>
+</html>
