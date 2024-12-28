@@ -1,3 +1,5 @@
+MIT License
+
 Copyright (c) 2024, Andrew Sebastian Sibuea and Nicholaus Santo Agnus Dei
 
 TERMS OF USE:
