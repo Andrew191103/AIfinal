@@ -1,0 +1,14 @@
+Aspect,Ground Truth,BERT,BART,GPT
+Personal data,Yes,TP,TP,TP
+Location,Yes,FN,TP,TP
+IP address,No,TP,FP,FP
+Geolocation,Yes,FN,TP,TP
+Third-party,Yes,TP,TP,TP
+Cookies,Yes,TP,TP,TP
+Biometric data,Yes,FN,TP,TP
+Device information,Yes,TP,TP,TP
+Payment information,Yes,TP,FN,TP
+Profiling,Yes,FN,FN,TP
+Advertising,No,TN,TN,TN
+Analytics,Yes,FN,FN,TP
+Loss,No,FP,TN,TN

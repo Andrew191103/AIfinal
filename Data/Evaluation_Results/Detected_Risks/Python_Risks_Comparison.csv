@@ -1,0 +1,7 @@
+Aspect,Ground Truth,BERT,BART,GPT
+Personal information,Yes,FN,TP,TP
+Personal data,No,TN,TN,TN
+IP address,Yes,FN,FN,TP
+Cookies,Yes,TP,FN,TP
+Financial information,Yes,TP,TP,TP
+Loss,No,FP,FP,TN

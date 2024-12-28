@@ -1,0 +1,22 @@
+Aspect,Ground Truth,BERT,BART,GPT
+Personal data,Yes,TP,TP,TP
+Personal information,No,FP,FP,TN
+Location,Yes,TP,TP,TP
+IP address,Yes,TP,TP,TP
+Camera,No,FP,FP,FP
+Microphone,No,FP,FP,TN
+Third-party,Yes,TP,TP,TP
+Data sharing,No,FP,FP,TP
+Advertising,Yes,TP,TP,TP
+Cookies,Yes,TP,TP,TP
+Analytics,Yes,TP,TP,TP
+Payment information,No,FP,FP,FP
+Marketing purposes,No,TN,FP,TN
+Data retention,Yes,TP,FN,TP
+Data processing,No,FP,FP,TN
+Device information,Yes,FN,FN,TP
+Financial information,No,FP,FP,TP
+Loss,No,FP,FP,TN
+Third-party services,No,FP,FP,FP
+Health data,Yes,TP,TP,TP
+Cloud data storage,Yes,FN,TP,TP

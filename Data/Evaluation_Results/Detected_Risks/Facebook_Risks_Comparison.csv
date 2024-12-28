@@ -1,0 +1,12 @@
+Aspect,Ground Truth,BERT,BART,GPT
+Personal information,Yes,FN,FN,TP
+Location,No,TN,FP,FP
+IP address,Yes,FN,TP,TP
+Camera,Yes,TP,TP,TP
+Third-party,Yes,TP,TP,TP
+Cookies,Yes,FN,FN,TP
+Analytics,Yes,TP,TP,TP
+Payment information,Yes,FN,TP,TP
+Device information,Yes,FN,FN,TP
+Third-party services,No,TN,FP,FP
+Face recognition,Yes,TP,TP,TP

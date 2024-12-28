@@ -1,0 +1,12 @@
+Aspect,Ground Truth,BERT,BART,GPT
+Personal information,Yes,TP,TP,TP
+Personal data,No,FP,FP,FP
+Location,Yes,TP,TP,TP
+IP address,Yes,TP,TP,TP
+Cookies,Yes,TP,FN,TP
+Advertising,No,TN,TN,TN
+Analytics,No,TN,TN,TN
+Marketing purposes,Yes,TP,TP,TP
+Data processing,No,FP,TN,FP
+Device information,No,FP,TN,TN
+Third-party,No,FP,FP,TN
