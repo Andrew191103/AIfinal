@@ -1,23 +1,16 @@
-MIT License
-
 Copyright (c) 2024, Andrew Sebastian Sibuea and Nicholaus Santo Agnus Dei
 
-LICENSE TERMS:
+TERMS OF USE:
+- You may not use, copy, modify, merge, publish, distribute, sublicense, or sell copies of this software or any modified versions, unless you have obtained explicit permission from the authors.
+- If you would like to contribute to the project or use it for any purpose not explicitly permitted, you must first contact the authors for approval.
 
-1. **Usage Restrictions**:
-   - You may not use, copy, modify, merge, publish, distribute, sublicense, or sell copies of this software or any modifications made to it without the express written permission of the authors.
+CONTRIBUTION:
+- Contributions to the software are welcome, but you must contact the authors directly for approval before submitting any changes or using the software for commercial purposes.
 
-2. **Contributions**:
-   - If you wish to contribute to this software, you must first contact the authors for explicit permission. Contributions will only be accepted if the authors approve them.
+DISCLAIMER:
+- The software is provided "AS IS," without any warranties, express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and noninfringement.
+- In no event shall the authors or copyright holders be liable for any damages, claims, or other liabilities arising from the use of this software.
 
-3. **Attribution**:
-   - Any use or distribution of the software, in its original or modified form, must include the above copyright notice, along with this permission notice, to ensure proper attribution.
+GOVERNING LAW:
+- This license shall be governed by and construed in accordance with the laws of [Your Jurisdiction].
 
-4. **No Warranty**:
-   - The software is provided "as-is," without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and noninfringement.
-
-5. **Liability Disclaimer**:
-   - In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use of the software.
-
-6. **Termination**:
-   - The authors reserve the right to terminate this license at any time if the terms are violated.
