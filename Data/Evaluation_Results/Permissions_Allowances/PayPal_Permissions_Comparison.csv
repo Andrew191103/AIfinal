@@ -1,0 +1,14 @@
+Aspect,Ground Truth,BERT,BART,GPT
+Access and update account information,Yes,TP,TP,TP
+Allow the site to use cookies and tracking technology,Yes,TP,TP,TP
+Allow users to opt out of communications,Yes,TP,TP,TP
+Permit sharing of your information with third parties,Yes,TP,TP,TP
+Collect and process payment and transaction information,Yes,FN,FN,TP
+Allow collection of device and location information,Yes,FN,TP,TP
+Enable automated decision-making and profiling,Yes,FN,FN,TP
+Allow sharing of anonymized or aggregated data,Yes,FN,FN,FN
+Allow integration with third-party services and APIs,Yes,TP,TP,TP
+Store and transfer user data internationally,Yes,FN,FN,FN
+Allow users to withdraw consent for specific data processing activities,Yes,FN,FN,FN
+Allow the use of biometric data for identification,Yes,FN,TP,TP
+Retain user data for legal security and compliance purposes,Yes,FN,TP,TP

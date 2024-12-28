@@ -1,0 +1,14 @@
+Aspect,Ground Truth,BERT,BART,GPT
+Send important notifications to users,Yes,TP,TP,TP
+Send marketing emails to users,Yes,TP,TP,TP
+Enable data portability for users,Yes,TP,TP,TP
+Allow users to opt out of communications,Yes,TP,TP,TP
+Allow the site to use cookies and tracking technology,Yes,TP,TP,TP
+Allow users to access update or delete their account information,Yes,FN,FN,FN
+Permit sharing of information with third-party service providers,Yes,FN,FN,FN
+Retain user data for security compliance and fraud prevention,Yes,FN,FN,FN
+Store and transfer user data globally,Yes,FN,FN,FN
+Allow withdrawal of user consent for data processing,Yes,FN,FN,FN
+Allow sharing of anonymized or aggregated data,Yes,FN,FN,FN
+Allow third-party integrations and APIs to access user data,Yes,FN,FN,FN
+Respond to legal requests and investigations,Yes,FN,FN,FN
