@@ -1,6 +1,8 @@
-# Spot - AI-Powered Privacy Policy Analyzer
+# SPOT - AI-Powered Privacy Policy Analyzer
 
-Spot is an intelligent application designed to analyze privacy policies efficiently. The app leverages advanced AI models to extract essential insights, including detected risks, permissions/allowances, and a concise summary of the privacy policy. It also runs in the background to monitor suspicious activities, notifying users of potential risks and providing actionable options.
+**SPOT**, an AI-powered tool designed to simplify complex privacy policies. The project includes both desktop and web applications, enabling users to analyze policies in various formats (PDF, Markdown, text). Leveraging advanced NLP models (GPT, BERT, BART), SPOT generates summaries, detects risks, and extracts permissions with reasons. SPOT empowers users by making privacy policies more understandable and actionable.
+
+**Tagline**: "Spot the Risks, Spot the Permissions, Spot the Truth."
 
 ## Features
 
@@ -94,5 +96,5 @@ Feel free to report issues or suggest enhancements!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
 
